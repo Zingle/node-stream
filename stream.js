@@ -1,1 +1,3 @@
-module.exports = {};
+const filter = require("./src/filter");
+
+module.exports = {filter};
