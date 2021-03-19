@@ -14,6 +14,8 @@ Transform Streams
 
 filter Stream
 -------------
+**filter(filterFunction, [streamOptions])**
+
 Use a filter stream to filter out stream data that fails to match a filter.
 This is analogous to **Array.prototype.filter**.
 
@@ -27,6 +29,8 @@ getReadableSomehow().pipe(stream.filter((chunk, enc) => {
 
 flatten Stream
 --------------
+**flatten([streamOptions])**
+
 Use a flatten stream to flatten stream Array data before passing it along.  This
 is analogous to **Array.prototype.flat**.
 
@@ -38,6 +42,8 @@ getReadableSomehow().pipe(stream.flatten());
 
 map Stream
 ----------
+**map(mapFunction, [streamOptions])**
+
 Use a map stream to perform a one-to-one mapping of stream data using a map
 function.  This is analogous to **Array.prototype.map**.
 
