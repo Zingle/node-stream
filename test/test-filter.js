@@ -1,5 +1,5 @@
 const expect = require("expect.js");
-const {Transform, PassThrough} = require("stream");
+const {Transform} = require("stream");
 const stringWriter = require("@zingle/string-writer");
 const filter = require("../src/filter");
 
